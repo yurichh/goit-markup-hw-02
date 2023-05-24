@@ -9,7 +9,10 @@ body {
   color: #434455;
   line-height: 1.5;
 }
-.link,
+.link {
+  text-decoration: none;
+}
+.header-title,
 .footer-title {
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -18,7 +21,6 @@ body {
   color: var(--iris);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
 }
 .link > span,
 .footer-title > span {
@@ -34,7 +36,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy);
-  text-decoration: none;
 }
 .header-links:hover,
 .header-links:focus {
@@ -49,9 +50,6 @@ body {
 }
 .portfolio-text {
 }
-.header-title {
-}
-
 .page-title {
   font-weight: 700;
   font-size: 56px;
