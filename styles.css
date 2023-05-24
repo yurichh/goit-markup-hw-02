@@ -1,10 +1,13 @@
 :root {
-  --basic-white: #ffffff;
+  --white:#ffffff;
+  --navy:#2e2f42;
+  --iris:#4d5ae5;
+  --slate:#434455;
 }
 body {
-  background-color: var(--basic-white);
+  background-color: var(--white);
   font-family: Roboto, sans-serif;
-  color: #434455;
+  color: var(--slate)
   line-height: 1.5;
 }
 ul,
@@ -16,12 +19,25 @@ ol {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  color: #2e2f42;
+  line-height: 1.17;
+  color: var(--iris);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
+.header-title > span, .footer-title>span {
+  color: var(--navy)
+}
+
 .header-links {
   font-weight: 500;
-  color: #2e2f42;
+  color: var(--navy);
+  text-decoration:none;
+}
+.header-contacts {
+  font-style: normal;
+  color: var(--navy);
+  text-decoration: none;
 }
 .portfolio-title {
 }
@@ -29,21 +45,16 @@ ol {
 }
 .header-title {
 }
-.header-links {
-}
-.header-contacts {
-  font-style: normal;
-  color: #2e2f42;
-}
+
 .page-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
-  color: var(--basic-white);
+  color: var(--white);
   text-align: center;
 }
 .main-section {
-  background-color: #2e2f42;
+  background-color: var(--navy);
 }
 .features-title,
 .team-title {
