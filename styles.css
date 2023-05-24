@@ -1,10 +1,53 @@
+:root {
+  --basic-white: #ffffff;
+}
 body {
-  background-color: #e5e5e5;
-  font-family: roboto, sans-serif;
-  color: #2e2f42;
+  background-color: var(--basic-white);
+  font-family: Roboto, sans-serif;
+  color: #434455;
   line-height: 1.5;
 }
 ul,
 ol {
-  list-style-type: ;
+  list-style-type: none;
+}
+.header-title,
+.footer-title {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2e2f42;
+}
+.header-links {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.portfolio-title {
+}
+.portfolio-text {
+}
+.header-title {
+}
+.header-links {
+}
+.header-contacts {
+  font-style: normal;
+  color: #2e2f42;
+}
+.page-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  color: var(--basic-white);
+  text-align: center;
+}
+.main-section {
+  background-color: #2e2f42;
+}
+.features-title,
+.team-title {
+}
+.features-text,
+.team-text {
 }
