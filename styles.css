@@ -9,10 +9,6 @@ body {
   color: #434455;
   line-height: 1.5;
 }
-ul,
-ol {
-  list-style-type: none;
-}
 .link,
 .footer-title {
   font-family: Raleway, sans-serif;
@@ -34,6 +30,9 @@ ol {
 
 .header-links {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--navy);
   text-decoration: none;
 }
