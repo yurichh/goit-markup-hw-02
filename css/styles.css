@@ -22,8 +22,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.link > span,
-.footer-title > span {
+.link > span {
   color: var(--navy);
 }
 .list {
@@ -65,4 +64,10 @@ body {
 }
 .features-text,
 .team-text {
+}
+.footer-container {
+  background-color: var(--navy);
+}
+.footer-title > span {
+  color: #f4f4fd;
 }
