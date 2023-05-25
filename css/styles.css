@@ -2,6 +2,7 @@
   --white: #ffffff;
   --navy: #2e2f42;
   --iris: #4d5ae5;
+  --cloud: #f4f4fd;
 }
 body {
   background-color: var(--white);
@@ -68,5 +69,9 @@ body {
   background-color: var(--navy);
 }
 .footer-span {
-  color: #f4f4fd;
+  color: var(--cloud);
+}
+.copyright {
+  color: var(--cloud);
+  letter-spacing: 0.02em;
 }
