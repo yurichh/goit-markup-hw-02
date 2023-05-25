@@ -18,6 +18,9 @@ body {
 .list {
   list-style: none;
 }
+
+/* HEADER */
+
 .header-title,
 .footer-title {
   font-family: Raleway, sans-serif;
@@ -44,8 +47,6 @@ body {
 }
 .header-contacts {
   font-style: normal;
-  color: var(--navy);
-  text-decoration: none;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
@@ -56,6 +57,45 @@ body {
 .header-address {
   font-style: normal;
 }
+
+/* INDEX.HTML */
+
+.page-title {
+  font-weight: 700;
+  font-size: 56px;
+  color: var(--white);
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+}
+.button-order-service {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background-color: var(--iris);
+  color: var(--white);
+  cursor: pointer;
+}
+.button-order-service:hover,
+.button-order-service:focus {
+  background-color: var(--ocean);
+}
+.main-section {
+  background-color: var(--navy);
+}
+.features-title,
+.team-title {
+}
+.features-text,
+.team-text {
+}
+
+/* PORTFOLIO.HTML */
+
 .portfolio-title {
   font-family: "Roboto";
   font-style: normal;
@@ -83,22 +123,9 @@ body {
   color: var(--white);
   background-color: var(--ocean);
 }
-.page-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 60px;
-  color: var(--white);
-  text-align: center;
-}
-.main-section {
-  background-color: var(--navy);
-}
-.features-title,
-.team-title {
-}
-.features-text,
-.team-text {
-}
+
+/* FOOTER */
+
 .footer-container {
   background-color: var(--navy);
 }
