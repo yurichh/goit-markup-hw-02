@@ -74,7 +74,6 @@ body {
   font-weight: 500;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
-  display: flex;
   letter-spacing: 0.04em;
   background-color: var(--iris);
   color: var(--white);
@@ -103,7 +102,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.header-2 {
+.title-two {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -112,7 +111,12 @@ body {
   text-transform: capitalize;
   color: var(--navy);
 }
-
+.team-section {
+  background-color: var(--cloud);
+}
+.team-item {
+  background-color: var(--white);
+}
 /* PORTFOLIO.HTML */
 
 .portfolio-title {
