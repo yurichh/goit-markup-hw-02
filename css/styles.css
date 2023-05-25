@@ -12,6 +12,9 @@ body {
 .link {
   text-decoration: none;
 }
+.list {
+  list-style: none;
+}
 .header-title,
 .footer-title {
   font-family: Raleway, sans-serif;
@@ -22,13 +25,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.link > span {
+.header-title > span {
   color: var(--navy);
 }
-.list {
-  list-style: none;
-}
-
 .header-links {
   font-weight: 500;
   font-size: 16px;
@@ -68,6 +67,6 @@ body {
 .footer-container {
   background-color: var(--navy);
 }
-.footer-title > span {
+.footer-span {
   color: #f4f4fd;
 }
