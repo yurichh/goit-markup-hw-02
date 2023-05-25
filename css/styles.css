@@ -3,11 +3,13 @@
   --navy: #2e2f42;
   --iris: #4d5ae5;
   --cloud: #f4f4fd;
+  --slate: #434455;
+  --ocean: #404bbf;
 }
 body {
   background-color: var(--white);
   font-family: Roboto, sans-serif;
-  color: #434455;
+  color: var(--slate);
   line-height: 1.5;
 }
 .link {
@@ -44,6 +46,15 @@ body {
   font-style: normal;
   color: var(--navy);
   text-decoration: none;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--ocean);
+}
+.header-address {
+  font-style: normal;
 }
 .portfolio-title {
 }
