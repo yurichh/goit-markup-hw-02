@@ -19,7 +19,7 @@ body {
   list-style: none;
 }
 
-/* HEADER */
+/** ------------------HEADER------------------ */
 
 .header-title,
 .footer-title {
@@ -58,7 +58,7 @@ body {
   font-style: normal;
 }
 
-/* INDEX.HTML */
+/** ------------------INDEX.HTML------------------ */
 
 .page-title {
   font-weight: 700;
@@ -102,7 +102,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.title-two {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -117,7 +117,8 @@ body {
 .team-item {
   background-color: var(--white);
 }
-/* PORTFOLIO.HTML */
+
+/** ------------------PORTFOLIO.HTML------------------ */
 
 .portfolio-title {
   font-family: "Roboto";
@@ -147,7 +148,7 @@ body {
   background-color: var(--ocean);
 }
 
-/* FOOTER */
+/** ------------------FOOTER------------------ */
 
 .footer-container {
   background-color: var(--navy);
